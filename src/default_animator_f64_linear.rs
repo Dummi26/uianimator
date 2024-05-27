@@ -18,6 +18,9 @@ impl DefaultAnimatorF64Linear {
             speed,
         }
     }
+    pub fn target(&self) -> f64 {
+        self.target
+    }
 }
 impl Animator for DefaultAnimatorF64Linear {
     type Value = f64;

@@ -25,6 +25,9 @@ impl DefaultAnimatorF64Quadratic {
             speed,
         }
     }
+    pub fn target(&self) -> f64 {
+        self.target
+    }
 }
 impl Animator for DefaultAnimatorF64Quadratic {
     type Value = f64;

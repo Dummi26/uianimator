@@ -4,6 +4,7 @@ name = "uianimator"
 version = "0.1.0"
 edition = "2021"
 description = "utilities for animations which can elegantly respond to user inputs mid-animation"
+repository = "https://github.com/Dummi26/uianimator"
 license = "MIT or Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

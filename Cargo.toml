@@ -1,7 +1,7 @@
 workspace = { members = ["examples/gui_default_animator_f64_quadratic"] }
 [package]
 name = "uianimator"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "utilities for animations which can elegantly respond to user inputs mid-animation"
 repository = "https://github.com/Dummi26/uianimator"
